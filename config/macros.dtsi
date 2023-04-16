@@ -39,8 +39,8 @@
     label = "macro_ctrl_backslash";
     #binding-cells = <0>;
     bindings = <&macro_press &kp LCTRL>
-    , <&macro_wait_time 250>
+    , <&macro_wait_time 50>
     , <&macro_tap &kp BACKSLASH>
-    , <&macro_wait_time 250>
+    , <&macro_wait_time 50>
     , <&macro_release &kp LCTRL>;
   };
